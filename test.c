@@ -13,6 +13,8 @@ int main()
         x += 2;
         y += 2;
         fillRect(x, y, 30, 30, rgb(200, 0, 0));
+        fillCircle(0, 0, 30, rgb(0, 0, 255));
+        drawLine(50, 50, x, y, rgb(69, 69, 200));
         repaint(60);
     }
     
